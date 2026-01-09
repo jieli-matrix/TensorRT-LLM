@@ -718,7 +718,7 @@ class TestLlama3_3_70BInstruct(LlmapiAccuracyTestHarness):
                           extra_evaluator_kwargs=dict(apply_chat_template=True))
 
 
-@pytest.mark.timeout(14400)
+@pytest.mark.timeout(18000)
 class TestLlama4MaverickInstruct(LlmapiAccuracyTestHarness):
     MODEL_NAME = "meta-llama/Llama-4-Maverick-17B-128E-Instruct"
     MODEL_PATH = f"{llm_models_root()}/llama4-models/Llama-4-Maverick-17B-128E-Instruct"

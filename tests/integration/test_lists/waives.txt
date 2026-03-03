@@ -389,3 +389,5 @@ unittest/_torch/multi_gpu/test_user_buffers.py::test_user_buffers_mm_add_prologu
 unittest/_torch/ray_orchestrator/single_gpu/test_llm_update_weights.py::test_llm_partial_update_weights[Qwen2.5-0.5B-Instruct] SKIP (https://nvbugs/5945031)
 full:RTXPro6000D/accuracy/test_llm_api_pytorch.py::TestGPTOSS::test_eagle3_4gpus[v2_kv_cache-cutlass-one_model-overlap_scheduler] SKIP (https://nvbugs/5945047)
 accuracy/test_llm_api_pytorch.py::TestDeepSeekV3Lite::test_nvfp4_4gpus[moe_backend=CUTLASS-mtp_nextn=0-pp4-fp8kv=False-attention_dp=False-cuda_graph=False-overlap_scheduler=False-torch_compile=False] SKIP (https://nvbugs/5945081)
+test_e2e.py::test_ptp_quickstart_advanced_ngram[Llama-3.1-8B-Instruct-llama-3.1-model/Llama-3.1-8B-Instruct] SKIP (https://nvbugs/5542138)
+disaggregated/test_workers.py::test_workers_kv_cache_aware_router[TinyLlama-1.1B-Chat-v1.0] SKIP (https://nvbugs/5934816)

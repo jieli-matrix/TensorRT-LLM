@@ -42,6 +42,8 @@ MEASURED = {
         "device_memory_mib": 97887,
         "max_gpu_per_node": 8,
         "cpu_arch": "x86_64",
+        # DEBUG, never merged: the mock cluster's B200/B300 shape.
+        "ladder": [1, 4, 8],
     },
     # 10.176.198.125, run #2421
     "H20": {
@@ -50,6 +52,8 @@ MEASURED = {
         "device_memory_mib": 97871,
         "max_gpu_per_node": 8,
         "cpu_arch": "x86_64",
+        # DEBUG, never merged: the mock cluster's H100 shape.
+        "ladder": [1, 4, 8],
     },
     # 10.63.135.23 and 10.117.0.83, runs #2437 and #2487
     "A100": {
@@ -77,8 +81,8 @@ DEFAULT_LADDERS = {
     "GB200": [4],
     "GB300": [4],
     "VR200": [4],
-    "RTX_PRO_6000": [8],
-    "H20": [8],
+    "RTX_PRO_6000": [1, 4, 8],
+    "H20": [1, 4, 8],
     "A100": [8],
     "L40S": [8],
 }

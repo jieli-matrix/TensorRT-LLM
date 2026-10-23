@@ -49,14 +49,16 @@
     "device_name": "RTX PRO 6000 Blackwell Server Edition",
     "device_memory_mib": 97887,
     "max_gpu_per_node": 8,
-    "cpu_arch": "x86_64"
+    "cpu_arch": "x86_64",
+    "ladder": [1, 4, 8]
   },
   "H20": {
     "sm": 90,
     "device_name": "H20",
     "device_memory_mib": 97871,
     "max_gpu_per_node": 8,
-    "cpu_arch": "x86_64"
+    "cpu_arch": "x86_64",
+    "ladder": [1, 4, 8]
   },
   "A100": {
     "sm": 80,
